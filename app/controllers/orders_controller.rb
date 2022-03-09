@@ -2,6 +2,26 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @line_items = @order.line_items
+
+    # @render_items = [] 
+    # # To store the entire item objects with his name, image, description ... for an order. 
+
+    # @line_items.each do |item|
+    #   @product = Product.find(item.product_id)
+    
+    # @render_items.push(
+    #   {
+    #   name:@product[:name],
+    #   image:@product[:image],
+    #   description:@product[:description],
+    #   unit_price:item.item_price_cents,
+    #   item_quantity:item.quantity,
+    #   total_price:item.total_price_cents,
+    #   }
+    # )
+  # end
+  # puts @render_items
   end
 
   def create
