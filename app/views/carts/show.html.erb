@@ -3,7 +3,11 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+<% if enhanced_cart.empty? %>
+    <div>
+      Oops! It looks like your cart is empty. Go check if you find <%= link_to "something nice to buy" , "/" %>
+        <div>
+          <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +52,5 @@
       <% end %>
     </div>
   </div>
-
+  <% end %>
 </section>
