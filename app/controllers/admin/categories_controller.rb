@@ -1,7 +1,5 @@
 class Admin::CategoriesController < ApplicationController
-  # before_filter :authorize
-
-  http_basic_authenticate_with name: ENV["ADMIN_USERNAME"], password: ENV["ADMIN_PASSWORD"]
+  http_basic_authenticate_with name: ENV['ADMIN_USERNAME'], password: ENV['ADMIN_PASSWORD']
 
   def index
     @categories = Category.order(id: :desc).all
@@ -34,9 +32,6 @@ class Admin::CategoriesController < ApplicationController
       :name,
       :description,
       :category_id,
-      :quantity,
-      :image,
-      :price
     )
   end
 

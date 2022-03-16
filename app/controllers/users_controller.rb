@@ -8,6 +8,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
+      # render json:{message: 'Error, this user already exist!'}
       redirect_to '/signup'
     end
   end
