@@ -36,5 +36,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 !["homepage"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/homepage.png?raw=true)
 !["cart"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/cart.png?raw=true)
-!["admin_all_products](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/admin_all_product.png?raw=true)
+!["my_cart"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/my_cart.png?raw=true)
+!["payment"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/payment.png?raw=true)
+!["order"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/order.png?raw=true)
+!["admin_all_products"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/admin_all_product.png?raw=true)
+!["admin_new_product"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/admin_newprod.png?raw=true)
 !["admin_all_categories"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/admin_all_cat.png?raw=true)
+!["admin_newcat"](https://github.com/JuliaaMuller/Jungle_project/blob/master/docs/admin_newcat.png?raw=true)
+
